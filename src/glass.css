@@ -1,0 +1,12 @@
+.glass {
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Apply blur */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+.gradient-border {
+  border-width: 4px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, #b92b27, #1565c0);
+  border-radius: 9999px; /* Fully rounded for pills */
+}
